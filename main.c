@@ -5,13 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	
-	int a;
-	int b;
+	char char1;
+	int int1;
 	
-	a=10;
-	b=20;
+	printf("input a number:");
+	scanf("%c", &char1);
 	
-	printf("%d+%d=%d\n", a, b, a+b);
+	int1= char1-48;
+	printf("the input number is %i\n", int1);
 	
 	return 0;
 }
