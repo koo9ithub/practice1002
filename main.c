@@ -5,15 +5,17 @@
 
 int main(int argc, char *argv[]) {
 	
-	char c;
-	int i;
+	int a;
+	int b;
 	
-	printf("enter a character :");
-	scanf("%c", &c);
+	printf("input the numerator:");
+	scanf("%i", &a);
 	
-	i=c-'0';
-	printf("the next character of %c is %c ", c, c+1);
+	printf("input the denominator:");
+	scanf("%i", &b); 
+	
+	printf("the fraction is: %i/%i\n", a, b);
+	printf("the value is: %f", (double)a/b);
 	
 	return 0;
-	
 }
