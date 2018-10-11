@@ -7,15 +7,11 @@ int main(int argc, char *argv[]) {
 	
 	int a;
 	int b;
+	int c;
+	int d;
 	
-	printf("input the numerator:");
-	scanf("%i", &a);
-	
-	printf("input the denominator:");
-	scanf("%i", &b); 
-	
-	printf("the fraction is: %i/%i\n", a, b);
-	printf("the value is: %f", (double)a/b);
+	printf("( %i+%i )*( %i-%i )/3", a, b, c, d);
+	scanf("%i", &a, &b, &c, &d);
 	
 	return 0;
 }
